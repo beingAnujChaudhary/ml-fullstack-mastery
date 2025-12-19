@@ -50,34 +50,58 @@ The objective is not just training models — but **owning the entire ML system*
 ## 🗺️ Curriculum Overview (High-Level)
 
 ```mermaid
-flowchart TB
+flowchart TD
+    %% Nodes
     A[🎯 Full-Stack ML Mastery]
+    
+    subgraph P1 [Week 1-4]
+        B[Phase 1: Foundations]
+        B1[📘 Mathematical Intuition]
+        B2[📈 Statistical Rigor]
+        B3[⚙️ Algorithm Implementation]
+    end
 
-    A --> B[Phase 1: Foundations]
-    A --> C[Phase 2: Production Engineering]
-    A --> D[Phase 3: Advanced Systems]
-    A --> E[🎓 Career Outcomes]
+    subgraph P2 [Week 5-8]
+        C[Phase 2: Production]
+        C1[🏗️ Pipeline Architecture]
+        C2[📦 Containerization]
+        C3[🔍 Experiment Tracking]
+        C4[📊 Monitoring]
+    end
 
-    B --> B1[Math & Linear Algebra]
-    B --> B2[Statistics & Inference]
-    B --> B3[Algorithms from Scratch]
+    subgraph P3 [Week 9-12]
+        D[Phase 3: Advanced]
+        D1[🤖 Transformer Systems]
+        D2[🔗 RAG Architecture]
+        D3[🤝 AI Agents]
+        D4[⚡ PEFT/LoRA]
+    end
 
-    C --> C1[ML Pipelines]
-    C --> C2[Experiment Tracking]
-    C --> C3[APIs & Docker]
-    C --> C4[Monitoring]
+    subgraph Out [Outcomes]
+        E[🎓 Career Outcomes]
+        E1[ML Engineer]
+        E2[AI Engineer]
+        E3[MLOps Engineer]
+    end
 
-    D --> D1[Transformers]
-    D --> D2[RAG Systems]
-    D --> D3[AI Agents]
-    D --> D4[LoRA / PEFT]
+    %% Vertical Spine Connections (The Fix)
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 
-    E --> E1[ML Engineer]
-    E --> E2[AI Engineer]
-    E --> E3[MLOps Engineer]
-    E --> E4[Research Engineer]
-```
+    %% Detail Connections (Branching slightly)
+    B .-> B1 & B2 & B3
+    C .-> C1 & C2 & C3 & C4
+    D .-> D1 & D2 & D3 & D4
+    E .-> E1 & E2 & E3
 
+    %% Styling
+    style A fill:#2e86ab,color:#fff
+    style B fill:#a23b72,color:#fff
+    style C fill:#f18f01,color:#000
+    style D fill:#73ab84,color:#fff
+    style E fill:#c73e1d,color:#fff```
 ---
 
 ## 🏗️ Repository Architecture — Dual Portfolio Strategy
