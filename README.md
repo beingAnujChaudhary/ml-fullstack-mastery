@@ -50,6 +50,7 @@ The objective is not just training models — but **owning the entire ML system*
 ## 🗺️ Curriculum Overview (High-Level)
 
 ```mermaid
+---
 flowchart TD
     %% Nodes
     A[🎯 Full-Stack ML Mastery]
@@ -84,13 +85,13 @@ flowchart TD
         E3[MLOps Engineer]
     end
 
-    %% Vertical Spine Connections (The Fix)
+    %% Vertical Spine Connections
     A --> B
     B --> C
     C --> D
     D --> E
 
-    %% Detail Connections (Branching slightly)
+    %% Detail Connections
     B .-> B1 & B2 & B3
     C .-> C1 & C2 & C3 & C4
     D .-> D1 & D2 & D3 & D4
@@ -101,9 +102,9 @@ flowchart TD
     style B fill:#a23b72,color:#fff
     style C fill:#f18f01,color:#000
     style D fill:#73ab84,color:#fff
-    style E fill:#c73e1d,color:#fff```
+    style E fill:#c73e1d,color:#fff
 ---
-
+```
 ## 🏗️ Repository Architecture — Dual Portfolio Strategy
 
 This repository deliberately separates **academic depth** from **engineering excellence**.
