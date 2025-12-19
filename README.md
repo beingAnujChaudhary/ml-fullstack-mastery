@@ -50,7 +50,6 @@ The objective is not just training models — but **owning the entire ML system*
 ## 🗺️ Curriculum Overview (High-Level)
 
 ```mermaid
----
 flowchart TD
     %% Nodes
     A[🎯 Full-Stack ML Mastery]
@@ -103,7 +102,6 @@ flowchart TD
     style C fill:#f18f01,color:#000
     style D fill:#73ab84,color:#fff
     style E fill:#c73e1d,color:#fff
----
 ```
 ## 🏗️ Repository Architecture — Dual Portfolio Strategy
 
