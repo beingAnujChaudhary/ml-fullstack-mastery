@@ -50,25 +50,32 @@ The objective is not just training models — but **owning the entire ML system*
 ## 🗺️ Curriculum Overview (High-Level)
 
 ```mermaid
-flowchart TD
-    A[Full-Stack ML Mastery] --> B[Phase 1: Foundations]
+flowchart TB
+    A[🎯 Full-Stack ML Mastery]
+
+    A --> B[Phase 1: Foundations]
     A --> C[Phase 2: Production Engineering]
     A --> D[Phase 3: Advanced Systems]
-    A --> E[Career Outcomes]
-    
+    A --> E[🎓 Career Outcomes]
+
     B --> B1[Math & Linear Algebra]
     B --> B2[Statistics & Inference]
     B --> B3[Algorithms from Scratch]
-    
+
     C --> C1[ML Pipelines]
     C --> C2[Experiment Tracking]
     C --> C3[APIs & Docker]
     C --> C4[Monitoring]
-    
+
     D --> D1[Transformers]
     D --> D2[RAG Systems]
     D --> D3[AI Agents]
     D --> D4[LoRA / PEFT]
+
+    E --> E1[ML Engineer]
+    E --> E2[AI Engineer]
+    E --> E3[MLOps Engineer]
+    E --> E4[Research Engineer]
 ```
 
 ---
